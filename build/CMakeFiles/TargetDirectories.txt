@@ -1,0 +1,5 @@
+C:/Users/Kanak/Desktop/laba3/Stack/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kanak/Desktop/laba3/Stack/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kanak/Desktop/laba3/Stack/build/stackLib/CMakeFiles/STATIC.dir
+C:/Users/Kanak/Desktop/laba3/Stack/build/gtest/CMakeFiles/GTest_Lib.dir
+C:/Users/Kanak/Desktop/laba3/Stack/build/test/CMakeFiles/TestMain.dir

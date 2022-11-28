@@ -1,0 +1,10 @@
+^C:\USERS\KANAK\DESKTOP\LABA3\STACK\BUILD\CMAKEFILES\8A5AFF2751026CCA014027539056A868\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kanak/Desktop/laba3/Stack -BC:/Users/Kanak/Desktop/laba3/Stack/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Kanak/Desktop/laba3/Stack/build/Stack.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
