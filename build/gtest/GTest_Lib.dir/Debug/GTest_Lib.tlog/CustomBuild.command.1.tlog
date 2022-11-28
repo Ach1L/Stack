@@ -1,0 +1,10 @@
+^C:\USERS\KANAK\DESKTOP\LABA3\STACK\GTEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kanak/Desktop/laba3/Stack -BC:/Users/Kanak/Desktop/laba3/Stack/build --check-stamp-file C:/Users/Kanak/Desktop/laba3/Stack/build/gtest/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
